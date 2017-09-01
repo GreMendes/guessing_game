@@ -1,0 +1,13 @@
+name: guessing_game
+version: 0.1.0
+
+authors:
+  - Gregory Mendes <contato@gregorymendes.com>
+
+targets:
+  guessing_game:
+    main: src/guessing_game.cr
+
+crystal: 0.23.1
+
+license: MIT
