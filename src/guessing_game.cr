@@ -1,30 +1,32 @@
 require "./guessing_game/*"
 
 module GuessingGame
-  secret_number = rand(100) + 1
-  puts "Guess a number!"
 
-  loop do
-    print "Please input your guess:"
-    if guess = gets
+secret_number = rand(100) + 1
+puts "Guess a number!"
 
-      begin
-        guessed_number = guess.to_i
-      rescue
-        puts "#{guess} isn't a number!"
-        exit 1
-      end
+loop do
+  print "Please input your guess:"
+  if guess = gets
 
-      puts "You guessed: #{guess}"
+    begin
+      guessed_number = guess.to_i
+    rescue
+      puts "#{guess} isn't a number!"
+      exit 1
+    end
 
-      if guess > secret_number
-        puts "To big!"
-      elsif guess < secret_number
-        puts "To small!"
-      else
-        puts "You win!"
-        break
-      end
+    puts "You guessed: #{guess}"
+
+    if guessed_number > secret_number
+      puts "To big!"
+    elsif guessed_number < secret_number
+      puts "To small!"
+    else
+      puts "You win!"
+      break
     end
   end
+end
+
 end
