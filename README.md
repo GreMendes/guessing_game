@@ -1,22 +1,16 @@
-# guessing_game
+# Guessing Game
 
-TODO: Write a description here
+A simple guessing game created to learn the Crystal lang
 
 ## Installation
 
-TODO: Write installation instructions here
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
+```
+ $ crystal src/guessing_game.cr
+```
 
 ## Contributing
 
-1. Fork it ( https://github.com/[your-github-name]/guessing_game/fork )
+1. Fork it ( https://github.com/GreMendes/guessing_game/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
@@ -24,4 +18,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [[your-github-name]](https://github.com/[your-github-name]) Gregory Mendes - creator, maintainer
+- [GreMendes](https://github.com/GreMendes) Gregory Mendes - creator, maintainer
