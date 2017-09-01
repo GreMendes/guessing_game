@@ -5,6 +5,14 @@ module GuessingGame
   puts "Guess a number!"
   print "Please input your guess:"
   if guess = gets
+
+    begin
+      guessed_number = guess.to_i
+    rescue
+      puts "#{guess} isn't a number!"
+      exit 1
+    end
+
     puts "You guessed: #{guess}"
 
     if guess > secret_number
