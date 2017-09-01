@@ -1,5 +1,10 @@
 require "./guessing_game/*"
 
 module GuessingGame
-  # TODO Put your code here
+  puts "Guess a number!"
+  print "Please input your guess:"
+  guess = gets
+
+  puts "You guessed: #{guess}"
+
 end
