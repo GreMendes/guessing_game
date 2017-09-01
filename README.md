@@ -8,6 +8,12 @@ A simple guessing game created to learn the Crystal lang
  $ crystal src/guessing_game.cr
 ```
 
+## Build
+
+```
+ $ crystal build src/guessing_game.cr --release
+```
+
 ## Contributing
 
 1. Fork it ( https://github.com/GreMendes/guessing_game/fork )
